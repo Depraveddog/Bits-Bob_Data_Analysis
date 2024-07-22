@@ -1,3 +1,5 @@
 Hello, In this project my group was assigned to identify anomalies from a given set of data. We have used excel filtering tool and SQL queries to identify those anomalies.
 The anomalies we found was duplicated receipt and staff ids.
 We clean those anomalies by using SSIS script to add a D to the receipt and staff ids. The reason why is that we want our data to be as accurate as possible and we can clarify those anomalies later on, omitting those rows can seem very insigificant as there isn't many but in the long run it might heavily affect the data analysis.
+Once the data was cleaned, a data mart was created to focus on key business objectives for analyse. The data mart was designed in a star schema to emphasises on performance and simplicity to cater to a company named "Bits&Bobs" as from the assingment brief, it was stated that the people in this company was not techy-savvy people.
+Following this, this data mart was loaded in powerbi for analyse to derive insights from the data to provide strategic business decision.
